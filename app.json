@@ -1,15 +1,16 @@
 {
   "expo": {
-    "name": "americana-demo",
-    "slug": "americana-demo",
+    "name": "demo-expo-enterprise",
+    "slug": "demo-expo-enterprise",
     "version": "1.0.0",
+    "owner": "nico_ayala8",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#D2D2D2"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -28,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6ed35749-20ef-4879-98ab-4b1c6a69c2db"
+      }
     }
   }
 }
